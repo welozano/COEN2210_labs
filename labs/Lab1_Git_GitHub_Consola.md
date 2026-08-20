@@ -46,7 +46,8 @@ Cierra y vuelve a abrir la terminal después de instalar (necesario para que Win
 
 ### Mac — alternativa
 
-Al correr `git --version` por primera vez, macOS normalmente te ofrece instalar las "Command Line Developer Tools" automáticamente — acepta esa instalación. Alternativa: `brew install git` si usas Homebrew.
+Al correr `git --version` por primera vez, macOS normalmente te ofrece instalar las "Command Line Developer Tools" automáticamente — acepta esa instalación. 
+**Alternativa:** `brew install git` si usas Homebrew.
 
 ### Linux — alternativa
 
@@ -66,7 +67,7 @@ Deberías ver algo como `git version 2.4x.x`. Si no aparece nada, avisa al profe
 
 ## Parte 2 — Configurar tu identidad en Git (5 min)
 
-Git necesita saber quién eres para registrar tus cambios correctamente. Esto se hace **una sola vez por computadora**:
+Git necesita saber quién eres para registrar tus cambios correctamente. Es recomendable que uses el correo electronico que usaste para crea tu cuenta de GitHub. Esto se hace **una sola vez por computadora**:
 
 ```bash
 git config --global user.name "Tu Nombre"
@@ -96,7 +97,7 @@ Guarda tu usuario de GitHub — lo necesitarás en el resto del curso.
 
 ## Parte 4 — Tu primer repositorio local (15 min)
 
-Vamos a crear una carpeta de proyecto y convertirla en un repositorio Git.
+Vamos a crear una carpeta de proyecto y convertirla en un repositorio Git. Primero identifica un folder en tu computadora donde vas a guardar todos tus repositorios relacionados a esta clase. Navega hasta ese repositorio en la consola o terminal. Allí ejecuta:
 
 ```bash
 mkdir lab1-git
@@ -192,6 +193,9 @@ Deberías ver el mismo `notas.txt` dentro de la nueva carpeta.
 | `git init` | Convierte la carpeta actual en un repositorio Git |
 | `git status` | Muestra el estado actual (qué cambió, qué está listo para commit) |
 | `git add <archivo>` | Marca un archivo para incluirlo en el próximo commit |
+| `git add -A` | Marca todos los cambios (nuevos, modificados, y eliminados) para el próximo commit |
+| `git rm --cached <archivo>` | Deja de rastrear un archivo sin borrarlo de la computadora |
+| `git mv <origen> <destino>` | Mueve/renombra un archivo y lo deja listo para commit en un solo paso |
 | `git commit -m "mensaje"` | Guarda los cambios marcados, con un mensaje |
 | `git log` | Muestra el historial de commits |
 | `git remote add origin <url>` | Conecta el repo local con uno remoto en GitHub |
@@ -203,7 +207,7 @@ Deberías ver el mismo `notas.txt` dentro de la nueva carpeta.
 
 ## Entregable del laboratorio
 
-Envía al profesor (por el medio indicado en clase) el enlace de tu repositorio `lab1-git` en GitHub, con al menos **2 commits** visibles en el historial.
+Envía al profesor (por el medio indicado en clase) el enlace de tu repositorio `lab1-git` en GitHub, con al menos 3 archivos y **4 commits** visibles en el historial.
 
 ---
 
