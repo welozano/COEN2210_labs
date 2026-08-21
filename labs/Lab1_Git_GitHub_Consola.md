@@ -47,7 +47,7 @@ Cierra y vuelve a abrir la terminal después de instalar (necesario para que Win
 ### Mac — alternativa
 
 Al correr `git --version` por primera vez, macOS normalmente te ofrece instalar las "Command Line Developer Tools" automáticamente — acepta esa instalación. 
-**Alternativa:** `brew install git` si usas Homebrew.
+>**Alternativa:** `brew install git` si tienes instalado Homebrew.
 
 ### Linux — alternativa
 
@@ -97,7 +97,9 @@ Guarda tu usuario de GitHub — lo necesitarás en el resto del curso.
 
 ## Parte 4 — Tu primer repositorio local (15 min)
 
-Vamos a crear una carpeta de proyecto y convertirla en un repositorio Git. Primero identifica un folder en tu computadora donde vas a guardar todos tus repositorios relacionados a esta clase. Navega hasta ese repositorio en la consola o terminal. Allí ejecuta:
+Vamos a crear una carpeta de proyecto y convertirla en un repositorio Git. 
+1. Primero identifica un folder en tu computadora donde vas a guardar todos tus repositorios relacionados a esta clase, puedes darle un nombre como `COEN2210_intro_to_programming`. 
+2. Navega hasta ese repositorio en la consola o terminal. Allí vas a crear el folder para este laboratorio, ejecuta:
 
 ```bash
 mkdir lab1-git
