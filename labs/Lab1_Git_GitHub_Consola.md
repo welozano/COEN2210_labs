@@ -4,7 +4,7 @@
 **Duración:** 2 horas
 **Requisitos:** Ninguno — no se usará ningún IDE en este laboratorio, solo la terminal/consola.
 
-> 💻 **¿Primera vez usando la terminal/consola?** Este laboratorio asume que sabes lo básico para moverte entre carpetas (`cd`) y listar archivos (`ls`/`dir`). Si no te sientes cómodo con eso todavía, revisa primero el tutorial básico de terminal *(disponible próximamente en este mismo repositorio)* antes de continuar.
+> 💻 **¿Primera vez usando la terminal/consola?** Este laboratorio asume que sabes lo básico para moverte entre carpetas (`cd`) y listar archivos (`ls`/`dir`). Si no te sientes cómodo con eso todavía, completa primero el [**Tutorial Básico de Terminal**](../Tutorial_Basico_Terminal.md) — está pensado para hacerse en casa, antes de esta sesión.
 
 ---
 
@@ -218,7 +218,7 @@ git push -u origin main
 >
 >   *(Si tu terminal usa **bash** en vez de zsh, cambia `~/.zprofile` por `~/.bash_profile` en esa línea — pero usa exactamente lo que el instalador de Homebrew te muestre en pantalla, ya que puede variar según el tipo de Mac.)*
 >
->   ⏱️ **Nota de tiempo:** instalar Homebrew puede tardar varios minutos, especialmente si el sistema también necesita descargar las "Command Line Developer Tools" de Apple (puede ser una descarga pesada).
+>   ⏱️ **Nota de tiempo:** instalar Homebrew puede tardar varios minutos, especialmente si el sistema también necesita descargar las "Command Line Developer Tools" de Apple (puede ser una descarga pesada). Si tienes varios estudiantes con Mac instalando esto al mismo tiempo en la red del lab, considera dar tiempo extra o hacerlo como paso previo antes de empezar el laboratorio formalmente.
 >
 >   Después de instalar Homebrew, corre `brew install --cask git-credential-manager` (arriba), cierra y vuelve a abrir la terminal. Ahora, al hacer `git push`, se va a abrir el navegador automáticamente para que inicies sesión y autorices — sin necesidad de escribir ningún código manualmente.
 >
