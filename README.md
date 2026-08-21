@@ -7,11 +7,12 @@ Repositorio con las guías de laboratorio del curso, en C++. Cada guía está pe
 
 ---
 
+> 💻 **¿Necesitas repasar el uso de la terminal/consola?** Antes de empezar, visita el [**Tutorial Básico de Terminal**](Tutorial_Basico_Terminal.md) — no es un laboratorio numerado del curso, es un recurso de apoyo para quien lo necesite.
+
 ### Índice de Laboratorios
 
 | # | Semana | Tema | Enlace |
 |---|---|---|---|
-| 0 | 1[^1] | Tutorial Básico de Terminal | [Tutorial_Basico_Terminal.md](Tutorial_Basico_Terminal.md) |
 | 1 | 1 | Git y GitHub desde la consola | [labs/Lab1_Git_GitHub_Consola.md](labs/Lab1_Git_GitHub_Consola.md) |
 | 2 | 2 | VS Code + Git/GitHub desde el IDE | *(pendiente)* |
 | 3 | 3 | Compilar/correr programas, leer errores del compilador | *(pendiente)* |
@@ -40,11 +41,9 @@ Repositorio con las guías de laboratorio del curso, en C++. Cada guía está pe
 ```
 coen2210-labs/
 ├── README.md                      ← este archivo (índice general)
-├── Tutorial_Basico_Terminal.md    ← prerequisito #0, para hacer en casa
+├── Tutorial_Basico_Terminal.md    ← recurso de apoyo (no es un lab numerado)
 └── labs/
     ├── Lab1_Git_GitHub_Consola.md
     ├── Lab2_...md      (pendiente)
     └── ...
 ```
-
-[^1]: Antes de la sesión, para hacer en casa.
